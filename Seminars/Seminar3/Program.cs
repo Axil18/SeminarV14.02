@@ -59,16 +59,16 @@
 //Задача 4. Напишите программу которая принимает на вход число (N) и
 // выдает на консоль квадраты чисел от 1 до N
 
-Console.WriteLine("Number");
-int n = Convert.ToInt32(Console.ReadLine());
-int y = 1;
-void Quad(int n)
-{
-    int y = 1;
-    while (y <= n){
-        Console.WriteLine(Math.Pow(y, 2));
-        y++;
-    }
-}
+// Console.WriteLine("Number");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int y = 1;
+// void Quad(int n)
+// {
+//     int y = 1;
+//     while (y <= n){
+//         Console.WriteLine(Math.Pow(y, 2));
+//         y++;
+//     }
+// }
 
-Quad(n);
+// Quad(n);

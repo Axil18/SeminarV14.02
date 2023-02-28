@@ -63,16 +63,16 @@
 // 3 -> 1, 8, 27
 // 5 -> 1, 8, 27, 64, 125
 
-Console.WriteLine("Number");
-int n = Convert.ToInt32(Console.ReadLine());
-int y = 1;
-void Qube(int n)
-{
-    int y = 1;
-    while (y <= n){
-        Console.WriteLine(Math.Pow(y, 3));
-        y++;
-    }
-}
+// Console.WriteLine("Number");
+// int n = Convert.ToInt32(Console.ReadLine());
+// int y = 1;
+// void Qube(int n)
+// {
+//     int y = 1;
+//     while (y <= n){
+//         Console.WriteLine(Math.Pow(y, 3));
+//         y++;
+//     }
+// }
 
-Qube(n);
+// Qube(n);
